@@ -1,0 +1,39 @@
+html, body {
+    height: 100%
+}
+
+#background {
+    background: url("assets/background.jpg") center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#message h1 {
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 100%;
+}
+
+.fas {
+    color: rgb(70, 68, 68);
+
+}
+
+.navbar-brand-secondary {
+    color: rgb(70, 68, 68);
+}
